@@ -1,0 +1,216 @@
+.container  {
+    max-width: 960px;
+    margin: auto;
+}
+Body {
+  font-family: Helvetica;
+}
+div {
+    display: inlineblock;
+}
+
+/* text */
+h1 {
+    font-weight: 700;
+    color: lightblue;
+    display: block;
+
+}
+h2 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: .8px;
+    color: black;
+
+}
+h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+h6 {
+    font-size: 1.10rem;
+    font-weight: 500;
+
+}
+
+p {
+    font-size: .8rem;
+    line-height: 1.1rem;
+    color: gray;
+
+}
+
+/* Nav Bar */
+
+header {
+    background-color: lightgrey;
+    display: block;
+
+    position: fixed;
+    width: 100%;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.colmar {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Helvetica;
+
+}
+
+.academy {
+    font-size: 1rem;
+    color: red;
+    font-weight: 600;
+    letter-spacing: .3px;
+    font-family: Helvetica;
+}
+
+.logo img {
+    height: 2.75rem;
+    padding-left: 24px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align-last: right;
+    display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding-right: 16px;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'helvetica';
+    text-direction: left;
+}
+
+/* Learn something new */
+
+.banner {
+    background-color: ;
+    margin: 0 auto;
+}
+
+.text-banner {
+    width: 440px;
+}
+
+.start a {
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgrey;
+    border: 2px solid #a6710d;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-family: 'helvetica';
+    font-weight: 700;
+}
+
+/* Courses  */
+
+.left {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px 0 32px 0;
+  width: 440;
+}
+.information {
+  color: b;
+}
+.left img {
+    width: 100%;
+}
+
+.box .desktop-img {
+    width: 35%;
+    padding: 16px;
+}
+
+.left span {
+    color: #5c585c;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: .6rem;
+}
+
+.banner img {
+  100%
+}
+/* Start learing  */
+
+.course img {
+    width: 100%;
+}
+
+.course-content {
+    padding: 16px 16px 24px 16px;
+}
+/* these exhibits  */
+
+video {
+    object-fit: contain;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.thesis p {
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+.thesis .box img {
+    width: 35%;
+    padding: 16px;
+}
+/* footer */
+
+footer p {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: black;
+}
+
+.footer-nav a {
+    display: inline-block;
+    padding-right: 16px;
+    color: black;
+    font-size: .75rem;
+    text-decoration: none;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .75rem;
+    border-top: 1px solid #DCDCDC;
+    background-color: white;
+    height: 3.5rem;
+}
